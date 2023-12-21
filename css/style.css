@@ -1,0 +1,108 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+}
+header{
+    padding: 20px 0;
+}
+header img{
+    height: 120px;
+    width: 150px;
+    display: block;
+}
+body{
+    margin: 0;
+}
+.banner {
+    background: #080808;
+}
+.banner--content{
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner--text{
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'quicksand', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner--close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.banner--text,
+.banner--close span{
+    color: white;
+}
+nav{
+    background-color: #5d5d5f;
+}
+.menu{
+    float: left;
+}
+.menu a{
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: #78787c;
+}
+.search{
+    float: right;
+}
+::placeholder{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.searchbar {
+    width: 100%;
+    max-width: 700px;
+    float: right;
+    background-color: #78787c;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color: rgb(255, 253, 253);
+}
+.searchbar button img{
+    padding: 6px 6px;
+    width: 50px;
+}
+.searchbar button:hover{
+    background-color: #88888d;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 20px;
+    width: 45px;
+    height: 45px;
+    background: #78787c;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
